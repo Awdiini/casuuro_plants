@@ -1,0 +1,42 @@
+.productCard{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 230px;
+    height: 190px;
+    /* margin-left: 30px; */
+
+}
+
+
+.leftide{
+    margin-top: 60px;
+}
+
+.Orderbtn{
+    background-color: #00a998;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    margin-top: -35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.Orderbtn :hover{
+    background-color: #000;
+    color: white;
+}
+
+.pname{
+    position: absolute; 
+    margin-top: 15px;
+    color: #00a998;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.pcat{
+    position: relative;
+    margin-top: 40px;
+    color: #00a998;
+    font-style: italic;
+}

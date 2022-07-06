@@ -1,0 +1,49 @@
+.cta-title{
+    color: #00a998;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.cardc{
+    background-color: #00a998;
+    max-width: 540px;
+    height: 110px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; 
+}
+
+/* .formInput{
+    background-color:rgba(228, 13, 13, 0);
+    color:white;
+    border: none;
+    outline:none;
+    height:30px;
+    transition:height 1s;
+    -webkit-transition:height 1s;
+} */
+
+.formInput{
+    border: none;
+    outline:none;
+    background-color: #00a998;
+    margin-top: 25px;
+
+}
+
+
+.inputs{
+    border: none;
+    outline: none;
+    background-color: #6be6d9;
+    height: 40px;
+}
+.mybtn{
+    margin-top: 15px;
+
+    background-color: #6be6d9;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
