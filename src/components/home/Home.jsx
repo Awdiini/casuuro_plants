@@ -1,6 +1,7 @@
 import React from "react"
 import Awards from "./awards/Awards"
 import CallToAction from "./CallToAction/CallToAction"
+import ContactUs from "./CallToAction/test"
 import Featured from "./featured/Featured"
 import Hero from "./hero/Hero"
 import Thero from "./hero/Thero"
@@ -16,6 +17,7 @@ const Home = () => {
       <Thero />
       <Products/>
       <CallToAction/>
+   
       {/* <Featured /> */}
      
       {/* <Recent /> */}

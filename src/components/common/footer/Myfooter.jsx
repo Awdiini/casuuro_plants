@@ -7,7 +7,7 @@ export default function Myfooter() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
     
-      <section className='footerpg'>
+      <section className='footerpg pt-3'>
         <div className='container text-center text-md-start mt-5'>
           <div className='row mt-3'>
             <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>
@@ -24,12 +24,12 @@ export default function Myfooter() {
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  Plants
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                  Accessories
                 </a>
               </p>
               <p>
@@ -39,7 +39,7 @@ export default function Myfooter() {
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                  Plant Care
                 </a>
               </p>
             </div>
@@ -47,23 +47,23 @@ export default function Myfooter() {
             <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                  Pricing
+                <a href='/' className='text-reset'>
+                  Home
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Settings
+                <a href='/about' className='text-reset'>
+                  About
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Orders
+                <a href='/contact' className='text-reset'>
+                  Contact
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Help
+                <a href='/faq' className='text-reset'>
+                  FAQ
                 </a>
               </p>
             </div>

@@ -18,7 +18,11 @@ const Products = () => {
                 <div className="col-7 leftide">
                  <p className='pname'>{name}</p>
                  <p className='pcat mb-5'>{category}</p>
-                 <button className='btn Orderbtn'> Order Now</button>
+                 {/* <button className='btn Orderbtn'> Order Now</button> */}
+
+                 <a href="/contact" target="" rel="noreferrer">
+          <button className='btn Orderbtn'>Order Now</button>
+        </a>
                 </div>
                
               <div className="col-5"> 
